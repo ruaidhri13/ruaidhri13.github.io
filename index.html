@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ruaidhri's Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruaidhri13 | Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">Ruaidhri</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
+  <div class="glass-container">
+    <nav>
+      <div class="logo">Ruaidhri<span class="dot">.</span></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/ruaidhri13" target="_blank" class="github">GitHub</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Header / Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <h2>Hi, I'm Ruaidhri!</h2>
-      <p>I'm a passionate developer, designer, and tech enthusiast.</p>
-      <a href="#projects" class="btn">See My Work</a>
-    </div>
-  </header>
+    <header>
+      <h1>Hey, I'm <span class="highlight">Ruaidhri</span></h1>
+      <p>Creative developer & problem solver with a flair for building elegant solutions.</p>
+      <a href="#work" class="btn">View My Work</a>
+    </header>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
+    <section id="about" class="section">
       <h2>About Me</h2>
-      <p>Welcome to my portfolio! I specialize in building responsive and interactive web experiences. I have experience in full-stack web development, designing user interfaces, and crafting creative solutions for web applications.</p>
-    </div>
-  </section>
+      <p>I specialize in clean code, responsive design, and building user-first experiences. With a background in full-stack development and an obsession with pixel perfection, I bring ideas to life on the web.</p>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
+    <section id="work" class="section">
       <h2>Projects</h2>
       <div class="project-grid">
-        <div class="project">
-          <h3>Project One</h3>
-          <p>A brief description of project one. Explain the technologies used, challenges, and outcomes.</p>
-          <a href="https://github.com/ruaidhri13/project-one" target="_blank" class="btn">Learn More</a>
+        <div class="project-card">
+          <h3>✨ Magic App</h3>
+          <p>A beautiful app that predicts your next move. Built with JS & Canvas API.</p>
+          <a href="https://github.com/ruaidhri13/magic-app" target="_blank">View on GitHub</a>
         </div>
-        <div class="project">
-          <h3>Project Two</h3>
-          <p>A brief description of project two. Highlight key features and design elements.</p>
-          <a href="https://github.com/ruaidhri13/project-two" target="_blank" class="btn">Learn More</a>
+        <div class="project-card">
+          <h3>🌌 Star Tracker</h3>
+          <p>Stargazing assistant with real-time sky map. Uses WebGL & APIs.</p>
+          <a href="https://github.com/ruaidhri13/star-tracker" target="_blank">View on GitHub</a>
         </div>
-        <!-- Add more projects as needed -->
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
+    <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>If you'd like to get in touch, feel free to drop me a line.</p>
-      <form action="https://formspree.io/f/yourformid" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <p>You can also find me on <a href="https://github.com/ruaidhri13" target="_blank">GitHub</a> and other social networks.</p>
-    </div>
-  </section>
+      <p>Want to collaborate, chat code, or hire me? Let’s talk.</p>
+      <a href="mailto:youremail@example.com" class="btn">Email Me</a>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Ruaidhri. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+      <p>&copy; 2025 Ruaidhri13 — Made with ❤️ & HTML</p>
+    </footer>
+  </div>
 </body>
 </html>
