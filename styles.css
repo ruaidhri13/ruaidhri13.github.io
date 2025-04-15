@@ -41,8 +41,10 @@ nav {
 }
 
 .logo {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5rem; /* Adjust font size if it's text */
+  /* If it's an image, use the following: */
+  /* width: 50px; */
+  /* height: auto; */
 }
 .logo .dot {
   color: var(--accent);
