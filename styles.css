@@ -70,8 +70,19 @@ header {
 }
 header h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+header p {
+  margin: 1rem 0;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+}
+
 .highlight {
   color: var(--accent);
 }
